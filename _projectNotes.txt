@@ -1,0 +1,26 @@
+
+Code Camp Demonstration app
+Hybrid MVC / AngularJS mini-SPA app
+
+1) Create MVCDemo web app - MVC + WebAPI with No Authentication
+2) Rename solution to MVC5NgDemo, rename project file
+3) Package Updates
+	bootstrap to 3.2
+	Mvc to 5.2.2 (also gets Razor to 3.2.2, WebPages to 3.2.2)
+	Newtonsoft.Json 6.0.6
+	jQuery to 2.1.1
+	WebApi.WebHost to 5.2.2 (also gets WebApi.Client WebApi.Core)
+	WebApi to 5.2.2
+	WebApi.HelpPage to 5.2.2
+	(updates _ViewStart.cshtml)
+4) Added Packages
+	EntityFramework 6.1.1
+	AngularJS.Route 1.3.0
+	gets AngularJS.Core 1.3.0
+5) Separated out views for _TopNav and _Footer
+6) Added render section "headend" to _Layout
+7) Moved meta for viewport down
+8) Uninstalled Modernizr
+9) Enabled HTTPS, updated default URL
+10) Edited homepage to be more informative for demo
+--Commit to GitHub
