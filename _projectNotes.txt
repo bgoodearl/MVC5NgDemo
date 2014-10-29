@@ -33,3 +33,20 @@ A) - set up initial structure of application
 14) Added Rehearsals controller for WebApi
 15) Added connection string to web.config
 --Commit to GitHub
+
+** In order for this to work, create database MVCDemo (or whatever you want to call it) using SSMS
+** OR change the connection string to create a local database
+** Run script Schema1_Initial.sql from BGoodMusic.EFDAL\BGM_SqlScripts
+** OR let EF create the table automagically
+** Then use Visual Studio or SSMS to manually add some entries to the Rehearsals table
+** Change the name of the database in the connection string in web.config to match your database name
+
+16) Switched to Attribute Routing, added /demo/ to URL paths
+	(this allows separation of cookies between front-end and WebAPI)
+	Add MapMvcAttributeRoutes in RouteConfig.cs
+17) Added routing rules to Home controller
+18) Added Root Hit Redirect rule in web.config
+19) Added RehearsalListItem under new folder ViewModels
+20) Added Music controller and code in Index method to show list of rehearsals from server side
+21) Added menu entry in _TopNav
+--Commit to GitHub
