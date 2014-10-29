@@ -2,6 +2,8 @@
 Code Camp Demonstration app
 Hybrid MVC / AngularJS mini-SPA app
 
+A) - set up initial structure of application
+
 1) Create MVCDemo web app - MVC + WebAPI with No Authentication
 2) Rename solution to MVC5NgDemo, rename project file
 3) Package Updates
@@ -23,4 +25,11 @@ Hybrid MVC / AngularJS mini-SPA app
 8) Uninstalled Modernizr
 9) Enabled HTTPS, updated default URL
 10) Edited homepage to be more informative for demo
+--Commit to GitHub
+
+11) Added projects with model(s) and Entity Framework repository for persistent data
+12) Created API folder for WebApi controllers, moved ValuesController there
+13) Added references to Model and EFDAL assemblies
+14) Added Rehearsals controller for WebApi
+15) Added connection string to web.config
 --Commit to GitHub
