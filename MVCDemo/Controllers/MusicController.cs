@@ -34,5 +34,14 @@ namespace MVCDemo.Controllers
             }
             return View(itemList);
         }
+
+        [Route("rehearsals")]
+        public ActionResult Rehearsals()
+        {
+            StringBuilder msg = new StringBuilder();
+            RehearsalViewModel model = new RehearsalViewModel();
+            ViewBag.Message = msg.ToString();
+            return View(model);
+        }
     }
 }

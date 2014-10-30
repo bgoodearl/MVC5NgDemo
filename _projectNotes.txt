@@ -50,3 +50,21 @@ A) - set up initial structure of application
 20) Added Music controller and code in Index method to show list of rehearsals from server side
 21) Added menu entry in _TopNav
 --Commit to GitHub
+
+Parts B-D can be found in the ADFS or IS (Identity Server) versions of the app that have authentication
+
+***********************************************
+PART E - AngularJS mini-SPA for Auth rehearsals
+***********************************************
+
+0) additional cleanup from having removed modernizr
+
+** Initial structure for Angular test app (mini-SPA)
+
+1) added folders app, app\music
+2) added Angular (Ng) module appRehearsals.js
+3) added Ng controller rehearsalList.js and view rehearsalList.html
+4) added method Rehearsals to RehearsalController (server side)
+5) added view for Rehearsals (server side)
+6) added link in _TopNav (server side)
+7) Test - click on "Rehearsals (Ng)" link and see page with no errors
