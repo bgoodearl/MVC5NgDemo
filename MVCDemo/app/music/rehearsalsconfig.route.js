@@ -33,18 +33,18 @@
                         nav: 1
                     }
                 }
-            }//,
-            //{
-            //    url: '/edit/:id',
-            //    config: {
-            //        templateUrl: 'app/music/rehearsalEdit.html',
-            //        //controller: 'rehearsalEdit',
-            //        title: 'Edit Rehearsal',
-            //        settings: {
-            //            nav: 2
-            //        }
-            //    }
-            //}
+            },
+            {
+                url: '/edit/:id',
+                config: {
+                    templateUrl: 'app/music/rehearsalEdit.html',
+                    //controller: 'rehearsalEdit',
+                    title: 'Edit Rehearsal',
+                    settings: {
+                        nav: 2
+                    }
+                }
+            }
         ];
 	}
 
