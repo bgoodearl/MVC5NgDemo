@@ -68,3 +68,13 @@ PART E - AngularJS mini-SPA for Auth rehearsals
 5) added view for Rehearsals (server side)
 6) added link in _TopNav (server side)
 7) Test - click on "Rehearsals (Ng)" link and see page with no errors
+--Commit to GitHub
+
+8) added Ng factory rehearsalDataService
+9) added Ng controller rehearsalEdit.js and view rehearsalEdit.html
+10) updated rehearsalsconfig.route.js
+11) completed code in Ng controller rehearsalList.js and content in view
+12) Added CamelCasePropertyNamesContractResolver to WebApiConfig
+13) Added link to Angular rehearsal editor from MVC list (server side Music/Index.cshtml)
+14) Updated javascript links in Rehearsals.cshtml
+--Commit to GitHub

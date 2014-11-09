@@ -177,6 +177,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\appRehearsals.js" />
+    <Content Include="app\music\rehearsalDataService.js" />
+    <Content Include="app\music\rehearsalEdit.html" />
+    <Content Include="app\music\rehearsalEdit.js" />
     <Content Include="app\music\rehearsalList.html" />
     <Content Include="app\music\rehearsalList.js" />
     <Content Include="app\music\rehearsalsconfig.route.js" />
