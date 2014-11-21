@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace MVCDemo.Controllers
+namespace MVCDemo.Controllers.API
 {
     public class ValuesController : ApiController
     {

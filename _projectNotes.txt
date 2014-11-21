@@ -78,3 +78,14 @@ PART E - AngularJS mini-SPA for Auth rehearsals
 13) Added link to Angular rehearsal editor from MVC list (server side Music/Index.cshtml)
 14) Updated javascript links in Rehearsals.cshtml
 --Commit to GitHub
+
+********************************
+PART G - Cleanup and Tweaks
+
+Changes to bring code in line with MVC5NgDemo_IS
+********************************
+AssemblyInfo tweaks
+Format Date in rehearsalList.html
+Conditional code in BundleConfig to use non-minimized javascript for debugging
+using cleanup in some places to match MVC5NgDemo_IS
+Tweaks to csproj file to make comparisons easier
