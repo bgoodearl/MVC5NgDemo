@@ -89,3 +89,17 @@ Format Date in rehearsalList.html
 Conditional code in BundleConfig to use non-minimized javascript for debugging
 using cleanup in some places to match MVC5NgDemo_IS
 Tweaks to csproj file to make comparisons easier
+
+********************************
+PART F - Content Security Policy
+Only allow loading of script content
+from files delivered from site.
+********************************
+
+1) Added Filters\ContentSecurityPolicyFilterAttribute
+2) Added instance of filter to RegisterGlobalFilters
+3) Added tag data-ng-csp to html root element in _Layout.cshtml
+	(Allows Angular to work with the constrained environment)
+4) Added angular-csp.css
+	(found in https://code.angularjs.org/snapshot/)
+5) Additional tweaks - csproj, others

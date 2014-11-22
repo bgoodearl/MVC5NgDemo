@@ -1,10 +1,11 @@
 ﻿<!DOCTYPE html>
-<html>
+<html data-ng-csp>
 <head>
     <meta charset="utf-8" />
     <title>@ViewBag.Title - MVC/Ng Demo</title>
     <meta name="viewport" content="width=device-width" />
     @Styles.Render("~/Content/css")
+    @RenderSection("headend", required: false)
 </head>
 <body>
     <div id="lo-appdata" data-appdata='{ "rootPath": "@Url.Content("~")"}' class="hidden"></div>

@@ -1,6 +1,5 @@
 --Use BGoodMusicDev;
 --USE MVCDemo;
---USE ORCS_rgood3_test;
 GO
 
 --********************************************************

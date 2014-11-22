@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
+using MVCDemo.Filters;
 
 namespace MVCDemo
 {
@@ -8,6 +9,9 @@ namespace MVCDemo
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+
+            //NOTE: Comment this out to allow Visual Studio interactions with site being debugged)
+            filters.Add(new ContentSecurityPolicyFilterAttribute());
         }
     }
 }
